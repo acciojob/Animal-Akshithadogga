@@ -1,14 +1,42 @@
 /*  your css code here. If applicable */
+ body{
+            background-image: url("https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/background.jpg");
+        }
+ div{
+            background-color: #444444;
+            padding: 20px;
+            width: 1000px;
+            border-radius: 20px;
+            margin: auto;
+        }
+ p{
+            color: whitesmoke;
+            font-size: 30px;
+            text-align: center;
+            margin: 0px;
+            text-transform: uppercase;
+        }
+img:hover{
+            opacity: 1;
+        }
+img{
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+            opacity: 0.8
+        }
 .imge{
 	width:25%;
 	height:25vh;
 	radious:25px;
 }
+
 #animal-photos{
 	width:75%;
 	height:87vh;
 	background-color: rgb(72,72,72);
 	padding-left:12%;
+	margin-top:35px;
      gap:30px 30px;
 	border-radious:25%;
 }
