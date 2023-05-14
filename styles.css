@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+.img{
+	width:25%;
+	height:25vh;
+	radious:25px;
+}
+#animal-photos{
+	width:75%;
+	height:87vh;
+	background-color: rgb(72,72,72);
+	padding-left:12%;
+     gap:30px 30px;
+	border-radious:25%;
+}
+#photo-heading{
+	color:white;
+	text-align:center;
+}
