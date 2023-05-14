@@ -2,18 +2,26 @@
  body{
             background-image: url("https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/background.jpg");
         }
+.container{
+/*     background-image: url("https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project2/cssProject2/grid.png"); */
+    width:25;
+    height: 100vh;
+    margin: auto;
+    padding-top: 7px;
+}
+ 
  div{
             background-color: #444444;
             padding: 20px;
-            width: 1000px;
+            width: 500px;
             border-radius: 20px;
             margin: auto;
         }
- p{
+  p{
             color: whitesmoke;
             font-size: 30px;
             text-align: center;
-            margin: 0px;
+            margin: 25px;
             text-transform: uppercase;
         }
 img:hover{
@@ -21,46 +29,12 @@ img:hover{
         }
 img{
             border-radius: 20px;
-            margin-top: 10px;
             margin-left: 20px;
-            opacity: 0.8
+	        margin-bottom:25px;
+            opacity: 0.8;	
+			height:25vh;
+			width:25%;
         }
-.longbox{
-    width: 940px;
-    height: 100px;
-}
-.container{
-/*     background-image: url("https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project2/cssProject2/grid.png"); */
-    width: 960px;
-    height: 780px;
-    margin: auto;
-    padding-top: 20px;
-}
-.box{
-    background-color: grey;
-    float: left;
-    opacity: 0.8;
-}
-.smallbox{
-    margin-top:20px;
-    margin-bottom: 30px;
-    width: 220px;
-    height: 220px;
- 
-}
-.ml-10{
-    margin-left: 10px;
-}
- 
-.ml-20{
-    margin-left: 20px;
-}
-.imge{
-	width:25%;
-	height:25vh;
+
 }
 
-#animal-photos{
-	width:75%;	
-	margin-top:35px;
-}
